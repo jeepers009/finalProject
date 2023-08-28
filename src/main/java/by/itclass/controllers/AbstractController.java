@@ -1,6 +1,7 @@
 package by.itclass.controllers;
 
 import by.itclass.model.services.user.UserService;
+import lombok.SneakyThrows;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -15,7 +16,8 @@ import static by.itclass.constants.JspConstants.MESSAGE_ATTR;
 public class AbstractController extends HttpServlet {
     protected UserService userservice;
 
-    public AbstractController() throws IOException, ClassNotFoundException {
+    @SneakyThrows
+    public void init() {
         userservice = UserService.getService();
     }
     @Override
@@ -24,15 +26,19 @@ public class AbstractController extends HttpServlet {
     }
 
     //просто перейти на некий адрес
-    public void forward(HttpServletRequest req, HttpServletResponse resp, String url)
+    protected void forward(HttpServletRequest req, HttpServletResponse resp, String url)
             throws ServletException, IOException {
         req.getRequestDispatcher(url).forward(req, resp);
     }
 
     //перегруженный метод... перейти с сообщением
-    public void forward(HttpServletRequest req, HttpServletResponse resp, String url,
+    protected void forward(HttpServletRequest req, HttpServletResponse resp, String url,
                         String message) throws ServletException, IOException {
         req.setAttribute(MESSAGE_ATTR, message);
         forward(req, resp, url);
+    }
+
+    protected void redirect(HttpServletResponse resp, String url) throws IOException {
+        resp.sendRedirect(getServletContext().getContextPath() + url);
     }
 }

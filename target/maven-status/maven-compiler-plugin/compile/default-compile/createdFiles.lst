@@ -1,0 +1,11 @@
+by\itclass\constants\JspConstants.class
+by\itclass\model\dao\user\UserDao.class
+by\itclass\model\db\ConnectionManager.class
+by\itclass\controllers\AbstractController.class
+by\itclass\model\entities\user\User.class
+by\itclass\model\services\user\UserService.class
+by\itclass\model\db\PropertiesManager.class
+by\itclass\constants\ApplicationConstants.class
+by\itclass\controllers\user\LogoutController.class
+by\itclass\constants\DbConstants.class
+by\itclass\controllers\user\LoginController.class

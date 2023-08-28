@@ -41,6 +41,12 @@
       <artifactId>mysql-connector-j</artifactId>
       <version>8.0.33</version>
     </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+
   </dependencies>
 
   <build>
@@ -87,6 +93,10 @@
           <target>8</target>
         </configuration>
       </plugin>
-    </plugins>
+      <plugin>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-maven-plugin</artifactId>
+        <version>9.4.30.v20200611</version>
+      </plugin></plugins>
   </build>
 </project>
