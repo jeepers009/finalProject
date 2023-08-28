@@ -9,7 +9,7 @@ import java.util.Properties;
 public class ConnectionManager {
     private static final String DRIVER = "driver";
     private static final String URL = "url";
-    private static final String DB_FILE_PROPS = "db.properties";
+    private static final String DB_FILE_PROPS = "src\\main\\resources\\db.properties";
     private static Connection cn;
     private static Properties props;
 

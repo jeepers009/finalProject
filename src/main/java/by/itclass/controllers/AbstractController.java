@@ -1,5 +1,6 @@
 package by.itclass.controllers;
 
+import by.itclass.model.services.food.FoodService;
 import by.itclass.model.services.user.UserService;
 import lombok.SneakyThrows;
 
@@ -15,10 +16,12 @@ import static by.itclass.constants.JspConstants.MESSAGE_ATTR;
 @WebServlet(name = "abstractController")
 public class AbstractController extends HttpServlet {
     protected UserService userservice;
+    protected FoodService foodService;
 
     @SneakyThrows
     public void init() {
         userservice = UserService.getService();
+        foodService = FoodService.getInstance();
     }
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

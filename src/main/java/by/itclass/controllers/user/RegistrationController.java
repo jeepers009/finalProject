@@ -11,7 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 import static by.itclass.constants.ApplicationConstants.*;
+import static by.itclass.constants.ApplicationConstants.LOGIN_JSP;
 import static by.itclass.constants.JspConstants.*;
+import static by.itclass.constants.JspConstants.REGISTRATION_JSP;
 
 @WebServlet(name = "registrationController", urlPatterns = REGISTRATION_CONTROLLER)
 public class RegistrationController extends AbstractController {

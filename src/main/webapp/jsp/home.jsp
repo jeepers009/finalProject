@@ -1,4 +1,5 @@
-<%@ page import="by.itclass.constants.ApplicationConstants" %><%--
+<%@ page import="by.itclass.constants.ApplicationConstants" %>
+<%@ page import="by.itclass.constants.JspConstants" %><%--
   Created by IntelliJ IDEA.
   User: User
   Date: 23.08.2023
@@ -10,15 +11,24 @@
 <html>
 <head>
     <title>Home page</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-<p>
-    <a href="<c:url value="<%= ApplicationConstants.LOGIN_CONTROLLER%>"/>" > Logout</a>
-</p>
-<h2>User Info:</h2>
-<p>User id: ${user.id}</p>
-<p>User login: ${user.login}</p>
-<p>User name: ${user.name}</p>
-<p>User email: ${user.email}</p>
+<jsp:include page="<%= JspConstants.MENU_JSP%>"/>
+<h2>hello ${user.name}</h2>
+<c:if test="${not empty pizzas}">
+    <h2>Today we propose next Pizzas...</h2>
+    <c:forEach var="pizza" items="${pizzas}">
+        ${pizza.name}
+        ${pizza.price}
+    </c:forEach>
+</c:if>
+<c:if test="${not empty drinks}">
+    <h2>Today we propose next Drinks...</h2>
+    <c:forEach var="drink" items="${drinks}">
+        ${drink.name}
+        ${drink.price}
+    </c:forEach>
+</c:if>
 </body>
 </html>
