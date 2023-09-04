@@ -27,7 +27,10 @@
                 <a href="<c:url value="<%= ApplicationConstants.DRINKS_MENU%>"/>">Drinks</a>
             </li>
             <li class="nav-li">
-                <a class="active" href="<c:url value="<%= ApplicationConstants.LOGOUT_CONTROLLER%>"/>">Logout</a>
+                <a class="active" href="<c:url value="/logout"/>">Logout</a>
+            </li>
+            <li class="nav-li">
+                <a href="<c:url value="<%= JspConstants.CART_JSP%>"/>">Cart</a>
             </li>
         </c:otherwise>
     </c:choose>

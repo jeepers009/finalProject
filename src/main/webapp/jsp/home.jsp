@@ -1,11 +1,5 @@
 <%@ page import="by.itclass.constants.ApplicationConstants" %>
-<%@ page import="by.itclass.constants.JspConstants" %><%--
-  Created by IntelliJ IDEA.
-  User: User
-  Date: 23.08.2023
-  Time: 18:45
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="by.itclass.constants.JspConstants" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
@@ -19,15 +13,39 @@
 <c:if test="${not empty pizzas}">
     <h2>Today we propose next Pizzas...</h2>
     <c:forEach var="pizza" items="${pizzas}">
-        ${pizza.name}
-        ${pizza.price}
+        <div class="food-item-box">
+            <img class="small-image" src="/img/${pizza.name}.jpg" alt="pizza">
+            <p>Name:${pizza.name}</p>
+            <p>Price:${pizza.price}</p>
+            <form method="post" action="<c:url value="<%= ApplicationConstants.CART_CONTROLLER%>" />">
+                <input type="hidden" name="<%= JspConstants.CART_ACTION_PARAM%>" value="addToCart">
+                <input type="hidden" name="<%= JspConstants.FOOD_ID_PARAM%>" value="${pizza.id}">
+                <input type="hidden" name="<%= JspConstants.FOOD_TYPE_PARAM%>" value="1">
+                <input type="hidden" name="<%= JspConstants.FOOD_NAME_PARAM%>" value="${pizza.name}">
+                <input type="hidden" name="<%= JspConstants.FOOD_PRICE_PARAM%>" value="${pizza.price}">
+                <input type="number" name="<%= JspConstants.FOOD_QUANTITY_PARAM%>" required>
+                <input type="submit" value="Add to cart">
+            </form>
+        </div>
     </c:forEach>
 </c:if>
 <c:if test="${not empty drinks}">
     <h2>Today we propose next Drinks...</h2>
     <c:forEach var="drink" items="${drinks}">
-        ${drink.name}
-        ${drink.price}
+        <div class="food-item-box">
+            <img class="small-image" src="/img/${drink.name}.jpg" alt="drink">
+            <p>Name:${drink.name}</p>
+            <p>Price:${drink.price}</p>
+            <form method="post" action="<c:url value="<%= ApplicationConstants.CART_CONTROLLER%>" />">
+                <input type="hidden" name="<%= JspConstants.CART_ACTION_PARAM%>" value="addToCart">
+                <input type="hidden" name="<%= JspConstants.FOOD_ID_PARAM%>" value="${drink.id}">
+                <input type="hidden" name="<%= JspConstants.FOOD_TYPE_PARAM%>" value="2">
+                <input type="hidden" name="<%= JspConstants.FOOD_NAME_PARAM%>" value="${drink.name}">
+                <input type="hidden" name="<%= JspConstants.FOOD_PRICE_PARAM%>" value="${drink.price}">
+                <input type="number" name="<%= JspConstants.FOOD_QUANTITY_PARAM%>" required>
+                <input type="submit" value="Add to cart">
+            </form>
+        </div>
     </c:forEach>
 </c:if>
 </body>
