@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81f43e6d-8bcd-470b-98ab-35761857fb47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/finalProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/food/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/food/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/order/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/order/OrdersHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/order/PrintOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/dao/food/FoodDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/dao/order/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/entities/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/entities/food/FoodItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/entities/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/services/cart/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/services/food/FoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/services/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Beer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Carbonara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Coffee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Cola.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Margherita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Napoletana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Peperoni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Tea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/pizza-dinner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/orders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/receipt.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/finalProject-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itclass/constants/ApplicationConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itclass/constants/ApplicationConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itclass/constants/DbConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itclass/constants/DbConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itclass/constants/JspConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itclass/constants/JspConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/AbstractController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/AbstractController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/user/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/user/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/user/LogoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/user/LogoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/user/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/user/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itclass/model/dao/user/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/dao/user/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itclass/model/db/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/db/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itclass/model/db/PropertiesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/db/PropertiesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itclass/model/services/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/services/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/constants/ApplicationConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itclass/constants/ApplicationConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/constants/DbConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itclass/constants/DbConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/constants/JspConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itclass/constants/JspConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/controllers/AbstractController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itclass/controllers/AbstractController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/controllers/user/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itclass/controllers/user/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/controllers/user/LogoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itclass/controllers/user/LogoutController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/dao/user/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itclass/model/dao/user/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/db/ConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itclass/model/db/ConnectionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/db/PropertiesManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itclass/model/db/PropertiesManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/services/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itclass/model/services/user/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmp/org/apache/jsp/jsp/registration_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmp/org/apache/jsp/jsp/registration_jsp.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2V1PhljN8V61IZY3KjhZTfcaXjQ" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/Styding" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Игорь\IdeaProjects\finalProject\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Styding" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81f43e6d-8bcd-470b-98ab-35761857fb47" name="Changes" comment="" />
+      <created>1694000738328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694000738328</updated>
+      <workItem from="1694000744452" duration="12259000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
