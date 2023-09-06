@@ -1,20 +1,15 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: User
-  Date: 23.08.2023
-  Time: 18:56
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page import="by.itclass.constants.JspConstants" %>
 <%@ page import="by.itclass.constants.ApplicationConstants" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>Login page</title>
+    <title>Registration page</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+<jsp:include page="<%=JspConstants.MENU_JSP %>"/>
+<img class="default-image" src="<%=JspConstants.BACKGROUND_IMAGE %>" alt="pizza">
 <div class="form-box">
     <h2>Login</h2>
     <form method="post" action="<c:url value="<%=ApplicationConstants.LOGIN_CONTROLLER%>"/>">

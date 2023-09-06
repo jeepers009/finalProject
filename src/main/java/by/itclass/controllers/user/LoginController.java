@@ -2,26 +2,25 @@ package by.itclass.controllers.user;
 
 import by.itclass.controllers.AbstractController;
 import by.itclass.model.entities.user.User;
+import lombok.SneakyThrows;
 
-import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import java.io.IOException;
 import java.util.Objects;
 
 import static by.itclass.constants.ApplicationConstants.*;
-import static by.itclass.constants.JspConstants.LOGIN_PARAM;
-import static by.itclass.constants.JspConstants.PASSWORD_PARAM;
+import static by.itclass.constants.JspConstants.*;
 
 
 @WebServlet(name = "loginController", urlPatterns = LOGIN_CONTROLLER)
 public class LoginController extends AbstractController {
 
+    @SneakyThrows
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) {
         String login = req.getParameter(LOGIN_PARAM);
         String password = req.getParameter(PASSWORD_PARAM);
         User user = userservice.getUser(login, password);

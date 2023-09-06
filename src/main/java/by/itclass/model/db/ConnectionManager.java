@@ -1,6 +1,5 @@
 package by.itclass.model.db;
 
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -13,18 +12,22 @@ public class ConnectionManager {
     private static Connection cn;
     private static Properties props;
 
-    public static void init() throws IOException, ClassNotFoundException {
+    public static void init() {
         loadProps();
         loadDriver();
     }
 
 
-    private static void loadProps() throws IOException {
+    private static void loadProps() {
         props = PropertiesManager.getProperties(DB_FILE_PROPS);
     }
 
-    private static void loadDriver() throws ClassNotFoundException {
-        Class.forName(props.getProperty(DRIVER));
+    private static void loadDriver() {
+        try {
+            Class.forName(props.getProperty(DRIVER));
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     public static Connection getConnection() throws SQLException {

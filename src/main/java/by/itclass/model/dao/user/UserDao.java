@@ -3,7 +3,6 @@ package by.itclass.model.dao.user;
 import by.itclass.model.db.ConnectionManager;
 import by.itclass.model.entities.user.User;
 
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -14,11 +13,11 @@ import static by.itclass.constants.DbConstants.*;
 public class UserDao {
     private static UserDao dao;
 
-    public UserDao() throws IOException, ClassNotFoundException {
+    public UserDao() {
         ConnectionManager.init();
     }
 
-    public static UserDao getInstance() throws IOException, ClassNotFoundException {
+    public static UserDao getInstance() {
         return dao == null ? new UserDao() : dao;
     }
 
@@ -56,9 +55,9 @@ public class UserDao {
         return false;
     }
     
-    private boolean isAccessible(String login) {
+    private synchronized boolean isAccessible(String login) {
         try (Connection cn = ConnectionManager.getConnection();
-             PreparedStatement ps = cn.prepareStatement(SELECT_USER_BY_LOGIN)) {
+             PreparedStatement ps = cn.prepareStatement(SELECT_USERID_BY_LOGIN)) {
             ps.setString(1, login);
             return !ps.executeQuery().next();
         } catch (SQLException e) {
