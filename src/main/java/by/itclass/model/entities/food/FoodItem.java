@@ -8,8 +8,9 @@ import lombok.EqualsAndHashCode;
 @Data
 @EqualsAndHashCode
 public class FoodItem {
-    protected int id;
-    protected int type;
-    protected String name;
-    protected double price;
+    private int id;
+    private int type;
+    private String name;
+    private double price;
+
 }

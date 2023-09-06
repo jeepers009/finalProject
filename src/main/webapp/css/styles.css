@@ -36,7 +36,7 @@ input[type=submit] {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: gray;
+    background-color: grey;
 }
 
 .nav-li {
@@ -68,14 +68,10 @@ input[type=submit] {
     opacity: 0.5;
 }
 
-body {
-    margin: 0px;
-}
-
 .food-item-box {
     background-color: lightgray;
     width: 200px;
-    height: 251px;
+    height: 250px;
     border: 3px solid green;
     padding: 15px;
     margin: 25px;
@@ -108,7 +104,7 @@ input[type=number] {
     height: 80px;
 }
 
-.cart-img {
+.cart-image {
     height: 60px;
     float: left;
     border: 1px solid black;
@@ -125,9 +121,9 @@ input[type=number] {
     background-color: green;
     border: none;
     color: white;
-    padding: 10px 10px;
+    padding: 10px;
     text-decoration: none;
-    margin: 0px 3px;
+    margin: 0 3px;
     cursor: pointer;
 }
 
@@ -145,7 +141,6 @@ input[type=number] {
 .order-container input[type=submit] {
     width: 150px;
     background-color: green;
-    border: none;
     color: white;
     padding: 16px 32px;
     text-decoration: none;
@@ -153,31 +148,3 @@ input[type=number] {
     cursor: pointer;
 }
 
-.order-list-container {
-    background-color: lightgray;
-}
-
-.order-list-container input[type=submit] {
-    width: 200px;
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 10px 25px;
-    text-decoration: none;
-    margin: 0 0 20px 20px;
-    cursor: pointer;
-}
-
-.receipt-container {
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    background-color: lightgray;
-    border: 1px solid gray;
-    padding: 20px;
-    display: inline-block;
-}
-
-.receipt-container .underline {
-    text-decoration: underline;
-}
