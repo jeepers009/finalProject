@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-<jsp:include page="<%=JspConstants.MENU_JSP %>"/>
-<img class="default-image" src="<%=JspConstants.BACKGROUND_IMAGE %>" alt="pizza">
+<jsp:include page="<%= JspConstants.MENU_JSP%>"/>
+<img class="default-image" src="/img/pizza-dinner.jpg" alt="pizza"/>
 <h2>Registration</h2>
 <form method="post" action="<c:url value="<%=ApplicationConstants.REGISTRATION_CONTROLLER%>"/>">
     <input name="<%= JspConstants.LOGIN_PARAM %>" placeholder="Login">
