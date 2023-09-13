@@ -4,6 +4,7 @@ import by.itclass.model.entities.OrderItem;
 
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 import static by.itclass.constants.JspConstants.ORDER_ITEMS_ATTR;
@@ -15,10 +16,10 @@ public class CartService {
         return service == null ? new CartService() : service;
     }
 
-    public ArrayList<OrderItem> processCart(HttpSession session, String cardAction, OrderItem item) {
-        ArrayList<OrderItem> items = !
+    public List<OrderItem> processCard(HttpSession session, String cardAction, OrderItem item) {
+        List<OrderItem> items = !
                 Objects.isNull(session.getAttribute(ORDER_ITEMS_ATTR))
-                ? (ArrayList<OrderItem>) session.getAttribute(ORDER_ITEMS_ATTR)
+                ? (List<OrderItem>) session.getAttribute(ORDER_ITEMS_ATTR)
                 : new ArrayList<>();
         switch (cardAction) {
             case "addToCard": {

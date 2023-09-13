@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.List;
 
 import static by.itclass.constants.ApplicationConstants.*;
 import static by.itclass.constants.JspConstants.*;
@@ -28,12 +28,12 @@ public class CartController extends AbstractController {
         double foodPrice = Double.parseDouble(req.getParameter(FOOD_PRICE_PARAM));
         int foodQuantity = Integer.parseInt(req.getParameter(FOOD_QUANTITY_PARAM));
 
-        String cardAction = req.getParameter(CART_ACTION_PARAM);
+        String cardAction = req.getParameter(CARD_ACTION_PARAM);
         OrderItem item = new OrderItem(
                 new FoodItem(id, foodType, foodName, foodPrice), foodQuantity);
         HttpSession session = req.getSession();
 
-        ArrayList<OrderItem> items = cartService.processCart(session, cardAction, item);
+        List<OrderItem> items = cartService.processCard(session, cardAction, item);
 
         session.setAttribute(ORDER_ITEMS_ATTR, items);
 
