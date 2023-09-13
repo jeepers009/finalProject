@@ -10,7 +10,7 @@ public class JspConstants {
     public static final String FOOD_NAME_PARAM = "name";
     public static final String FOOD_PRICE_PARAM = "price";
     public static final String FOOD_QUANTITY_PARAM = "quantity";
-    public static final String CARD_ACTION_PARAM = "cardAction";
+    public static final String CART_ACTION_PARAM = "cardAction";
     public static final String ADDRESS_PARAM = "address";
 
     public static final String ORDERS_ATTR = "orders";
