@@ -1,7 +1,7 @@
 package by.itclass.controllers;
 
 import by.itclass.model.services.food.FoodService;
-import by.itclass.model.services.order.CartService;
+import by.itclass.model.services.cart.CartService;
 import by.itclass.model.services.user.UserService;
 import lombok.SneakyThrows;
 
