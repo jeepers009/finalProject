@@ -5,42 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81f43e6d-8bcd-470b-98ab-35761857fb47" name="Changes" comment="YEAH!!!13.09.2023">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/order/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/entities/order/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/services/order/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmp/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmp/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmp/org/apache/jsp/jsp/cart_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmp/org/apache/jsp/jsp/cart_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmp/org/apache/jsp/jsp/menu_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmp/org/apache/jsp/jsp/menu_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/constants/ApplicationConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/constants/DbConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/constants/JspConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/controllers/AbstractController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/controllers/food/CartController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/controllers/food/MenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/controllers/order/OrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/controllers/order/OrdersHistoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/controllers/order/PrintOrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/controllers/user/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/controllers/user/LogoutController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/controllers/user/RegistrationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/dao/food/FoodDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/dao/order/OrderDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/dao/user/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/db/ConnectionManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/db/PropertiesManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/entities/OrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/entities/food/FoodItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/entities/order/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/entities/user/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/services/cart/CartService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/services/food/FoodService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/services/order/OrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itclass/model/services/user/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/org/apache/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/org/apache/jsp/index_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/org/apache/jsp/jsp/cart_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/org/apache/jsp/jsp/cart_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/org/apache/jsp/jsp/menu_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/org/apache/jsp/jsp/menu_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itclass/constants/JspConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itclass/constants/JspConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/food/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itclass/controllers/food/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itclass/model/services/cart/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itclass/model/services/cart/CartService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,14 +81,6 @@
       <updated>1694000738328</updated>
       <workItem from="1694000744452" duration="12259000" />
     </task>
-    <task id="LOCAL-00001" summary="YEAH!!!13.09.2023">
-      <created>1694602630138</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1694602630138</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

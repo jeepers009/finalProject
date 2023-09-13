@@ -13,10 +13,8 @@ C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\controlle
 C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\model\services\order\OrderService.java
 C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\model\dao\user\UserDao.java
 C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\controllers\user\LoginController.java
-C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\model\entities\order\OrderItem.java
 C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\model\services\food\FoodService.java
 C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\controllers\order\PrintOrderController.java
-C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\model\services\order\CartService.java
 C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\constants\DbConstants.java
 C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\controllers\user\RegistrationController.java
 C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\controllers\food\CartController.java
@@ -24,5 +22,4 @@ C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\model\ent
 C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\controllers\food\MenuController.java
 C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\model\entities\OrderItem.java
 C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\model\services\user\UserService.java
-C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\controllers\order\CartController.java
 C:\Users\Игорь\IdeaProjects\finalProject\src\main\java\by\itclass\model\dao\order\OrderDao.java

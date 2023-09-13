@@ -2,7 +2,6 @@ by\itclass\controllers\order\OrdersHistoryController.class
 by\itclass\controllers\food\MenuController.class
 by\itclass\model\dao\food\FoodDao.class
 by\itclass\model\services\cart\CartService.class
-by\itclass\model\entities\order\OrderItem.class
 by\itclass\constants\DbConstants.class
 by\itclass\constants\JspConstants.class
 by\itclass\model\dao\user\UserDao.class
@@ -11,7 +10,6 @@ by\itclass\model\entities\order\Order.class
 by\itclass\model\entities\user\User.class
 by\itclass\model\entities\OrderItem.class
 by\itclass\model\services\order\OrderService.class
-by\itclass\model\services\order\CartService.class
 by\itclass\controllers\order\PrintOrderController.class
 by\itclass\controllers\user\LoginController.class
 by\itclass\model\services\food\FoodService.class
@@ -21,7 +19,6 @@ by\itclass\model\db\ConnectionManager.class
 by\itclass\controllers\AbstractController.class
 by\itclass\model\entities\food\FoodItem.class
 by\itclass\model\services\user\UserService.class
-by\itclass\controllers\order\CartController.class
 by\itclass\model\db\PropertiesManager.class
 by\itclass\constants\ApplicationConstants.class
 by\itclass\controllers\food\CartController.class
